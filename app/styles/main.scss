@@ -1,1 +1,13 @@
 @import "bootstrap";
+@import "compass/css3";
+@import "variables";
+@import "type";
+@import "utilities";
+@import "layout";
+@import "header-footer";
+
+body {
+	background-color: $white;
+	color: $black;
+	@include box-sizing(border-box);
+}

@@ -15,18 +15,20 @@
         
         <link rel="stylesheet" href="styles/main.css">
         <script src="scripts/vendor/modernizr.min.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/gpm7jkf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
     <body>
-    <header class="main-header row">
+    <header class="main-header row-fluid">
     	<nav>
     		<div class="home-link span1">
     			<a href="#"><img src="images/epfl-logo.png" alt="Enoch Pratt Free Library" /></a>
     		</div>
     		<ul class="navigation span6">
     			<div class="row">
-	    			<li class="span2"><a href="#">My Library</a></li>
-	    			<li class="span2"><a href="#">Books &amp; Media</a></li>
-	    			<li class="span2"><a href="#">The Librarian</a></li>
+	    			<li class="span4"><a href="#">My Library</a></li>
+	    			<li class="span4"><a href="#">Books &amp; Media</a></li>
+	    			<li class="span4"><a href="#">The Librarian</a></li>
     			</div>
     		</ul>
     		
@@ -36,13 +38,42 @@
     	</nav>
     </header>
     
-    <div class="module ">
     
+    <div class="module ">
+    	<div class="container">
+    		<div class="row">
+		    	<div class="supplementals span3">
+		    		<h3>Reviewing: Best American Essays 2007</h3>
+		    		<input type="text" name="review-name" id="writereviewname" placeholder="Review Title"/>
+		    		<a href="#" class="button">Save</a>
+		    		<a href="#" class="button">Publish</a>
+		    	</div> <!-- /.supplementals -->
+		    	
+		    	<div class="writing-content span6" contenteditable="true">
+		    		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nibh nunc, porttitor ac porttitor non, adipiscing id neque. Morbi sed eros nibh. Quisque vitae urna est. Proin dapibus urna a nisi pretium hendrerit. Nam dapibus, lectus ut posuere fringilla, eros lorem auctor lorem, elementum tincidunt enim nisl ac tellus. Nam nisi mauris, consectetur eu auctor quis, consectetur quis metus. Morbi tincidunt dolor in quam auctor eget auctor nunc rhoncus. Nulla egestas, felis sagittis laoreet pretium, risus elit viverra enim, ac gravida neque metus fringilla risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec ornare mollis cursus. Praesent adipiscing tristique ultrices. Donec eu urna ac tellus euismod commodo quis ut tellus.
+
+Maecenas lorem nulla, viverra in ultricies sed, lobortis ac nisi. Aenean eu justo nec augue aliquam vulputate vel quis arcu. Nam magna sapien, dictum eget sollicitudin vitae, pharetra ut magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam nec diam arcu, et mattis sapien. Vestibulum vitae ultricies odio. Morbi posuere risus in justo commodo ut auctor nisi aliquam.
+
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec semper pellentesque urna convallis convallis. Duis feugiat pretium pretium. Integer malesuada suscipit justo, vitae consequat tellus adipiscing sed. Duis felis quam, ultrices rhoncus congue ut, mollis eu nibh. Suspendisse fermentum ligula ac libero luctus pharetra. Aenean consequat tincidunt pretium. Mauris ultricies tempor hendrerit. Sed at egestas nisl. Maecenas vestibulum libero ac massa consequat rutrum. Vivamus varius tempor velit. Curabitur posuere, justo nec fringilla pellentesque, leo quam fringilla est, ut fringilla turpis orci posuere purus. In sollicitudin feugiat nulla, quis scelerisque turpis malesuada vitae.
+
+Etiam rutrum aliquam lectus. Etiam imperdiet cursus nunc eleifend fermentum. Duis convallis imperdiet adipiscing. Nunc sem augue, gravida eget mattis et, semper quis justo. Duis iaculis tristique risus, sed rhoncus metus porttitor non. Morbi fermentum laoreet dui a gravida. Morbi dui ante, blandit sed aliquam eget, rhoncus in leo. Nam elementum lectus eu ligula facilisis nec congue diam tempus. Phasellus turpis mi, eleifend et consequat at, commodo sed purus. Nunc varius sollicitudin ipsum vitae aliquam. Sed rutrum molestie turpis, et tempor enim fringilla non. Cras sed sodales dolor. Morbi mi mauris, interdum a molestie vel, blandit at justo. Cras sed ligula vel risus dapibus convallis id et augue. Duis porttitor quam non quam commodo adipiscing. Proin pellentesque egestas luctus.
+
+Mauris pulvinar sagittis vulputate. Nam porttitor enim in neque ultricies sit amet eleifend ante fermentum. Ut mattis, neque in tempor ornare, dolor odio cursus diam, et gravida ante odio vel tortor. Duis eu orci nisl, sed pellentesque magna. In ultrices turpis quis leo tempor tempus. Cras et ante turpis. Proin non est at elit semper bibendum. Maecenas ut augue justo, eu interdum erat. Duis aliquam quam quis turpis pulvinar ultricies pulvinar felis vulputate. Quisque id ante sed nulla consequat suscipit ac nec ligula. In posuere nisi quis sem molestie aliquet. Vivamus eget pretium risus.
+		    	</div>
+		    	
+		    	<div class="actions span3">
+		    		<p>Highlight text and then click the buttons below to format</p>
+		    		<a href="#" class="button">Bold</a>
+		    		<a href="#" class="button">Italic</a>
+		    		<a href="#" class="button">Underlind</a>
+		    	</div>
+    		</div> <!-- /.row -->
+    	</div> <!-- /.container -->
     </div><!-- /.module -->
     
     <footer class="module">
     	<div class="container">
-    		<div class="row">
+    		<div class="row contact-info">
     			<div class="address span4">
 					<p>Enoch Pratt Free Library</p>
 					<p>400 Cathedral Street</p>
@@ -60,8 +91,8 @@
 					<p><a href="maito:hello@prattlib.com">hello@prattlib.com</a></p>
 				</div>
     		</div><!-- /.row -->
-    		<div class="row">
-    			<div class="span1">
+    		<div class="row footer-logo">
+    			<div class="span2 offset5 footer-logo">
     				<img src="images/epfl-logo.png" alt="Enoch Pratt Free Library" />
     			</div>
     		</div>

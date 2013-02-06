@@ -1,0 +1,18 @@
+$black: #303030;
+$red: #CC3E33;
+$blue: #4CB0D3;
+$white: #fff;
+$off-white: #eee;
+$light-gray: #ddd;
+$sky-blue: #C0E1F9;
+$tan: #E2D7BA;
+$sea-green: #97AA8F;
+$green: #7FD159;
+
+@mixin vendorize($property, $value) {
+	-webkit-#{$property}: $value;
+	-moz-#{$property}: $value;
+	-ms-#{$property}: $value;
+	-o-#{$property}: $value;
+	#{$property}: $value;
+}

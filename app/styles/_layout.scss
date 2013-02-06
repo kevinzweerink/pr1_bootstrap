@@ -1,0 +1,30 @@
+.right {
+	float:right;
+}
+
+.module {
+	border-top: 1px solid $light-gray;
+	padding: 2em 0;
+	
+	&.homepage-navigation {
+		padding: 0;
+	}
+
+}
+
+.explore-link, .book {
+	position: relative;
+	margin-bottom: 1em;
+}
+
+.explore-label {
+	padding: .2em;
+	padding-left: 2em;
+	background-color: $blue;
+	color: $white;
+	position: absolute;
+	bottom: 4em;
+	left: 0;
+	
+}
+

@@ -1,0 +1,58 @@
+@import "variables";
+
+$sans-serif: "freight-sans-pro";
+$serif: "ff-tisa-web-pro";
+
+body {
+	font-family: $serif, georgia, serif;
+	font-size: 21px;
+	line-height: 1.4;
+}
+
+h1, h2, h3 {
+	font-family: $sans-serif, helvetica, arial, sans-serif;
+}
+
+h1, h2 {
+	padding: 0;
+	margin-bottom: 1em;
+	margin-top: .5em;
+}
+
+h2 {
+	border-bottom: 2px solid $blue;
+}
+
+h3, h4, h5, h6 {
+	padding: 0;
+	margin-bottom: .3em;
+	margin-top: 0;
+}
+
+a {
+	color: $blue;
+	text-decoration: none;
+	@include vendorize(transition, all .2s ease);
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.main-header a, .homepage-navigation a {
+	font-size: 75%;
+	color: $white;
+	font-family: $sans-serif, helvetica, arial, sans-serif;
+}
+
+ul.list {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	li {
+		padding: .3em 0;
+		border-bottom: 1px solid $light-gray;
+		a {
+			float: right;
+		}
+	}
+}

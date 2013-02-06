@@ -1,0 +1,41 @@
+a.button {
+	padding: .3em .5em;
+	border-radius: 5px;
+	background-color: $blue;
+	color: $white;
+	font-family: $sans-serif,helvetica, arial, sans-serif;
+	font-size: .75em;
+	text-decoration: none;
+	display: inline-block;
+	&.submit {
+		padding: .7em .7em;
+		text-transform: uppercase;
+	}
+	&:hover {
+		background-color: $red;
+	}
+}
+
+ul.dropdown {
+	position: relative;
+	list-style: none;
+	width: 7em;
+	li {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: $blue;
+		a {
+			color: white;
+			padding: 1em;
+			display: inline-block;
+		}
+	}
+	
+	&:hover {
+		li {
+			position: relative;
+		}
+	}
+}

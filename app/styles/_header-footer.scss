@@ -1,0 +1,88 @@
+.main-header, .homepage-navigation {
+	background-color: $black;
+	.home-link img{
+		width: 35px;
+	}
+	
+	.home-link {
+		padding: .5em 1em;
+		background-color: $black;
+	}
+	.homepage-nav li, .navigation li {
+		display: inline-block;
+		float: left;
+		padding: .8em 0;
+		margin: 0;
+		text-align: center;
+		a {
+			display: block;
+		}
+		a:hover {
+			color: $blue;
+		}
+	}
+	
+	a.button {
+		margin-top: .3em;
+		margin-right: .5em;
+	}
+	
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+	
+	.sign-in-button {
+		margin-top: .3em;
+	}
+}
+
+.search-header {
+	text-align: center;
+	padding-bottom: 3em;
+	padding-top: 3em;
+	background-color: $sky-blue;
+	color: $black;
+	/*
+background: url("../images/pratt_lib_illustration.png") no-repeat center top;
+	background-size: 100%;
+	background-position: 0 -100px;
+*/
+	input[type="text"] {
+		width: 80%;
+		padding: .5em;
+		outline:none;
+		border: 1px solid $light-gray;
+		margin-right: 0;
+	}
+	a.button.submit {
+		text-align: center;
+		margin-left: 0;
+	}
+}
+
+footer {
+	font-size: 85%;
+	padding-top: 2em;
+	border-top: 1px solid $light-gray;
+	p {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	.row.contact-info {
+		border-bottom: 1px solid $light-gray;
+		padding-bottom: 1em;
+	}
+	
+	.row.footer-logo {
+		margin-top: 2em;
+		margin-bottom: 5em;
+		img {
+			display: block;
+			width: 30%;
+			margin: auto;
+		}
+	}
+}

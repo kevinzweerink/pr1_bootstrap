@@ -15,34 +15,43 @@
         
         <link rel="stylesheet" href="styles/main.css">
         <script src="scripts/vendor/modernizr.min.js"></script>
+        <script type="text/javascript" src="//use.typekit.net/gpm7jkf.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     </head>
     <body>
+    <div class="homepage-header">
+    </div> <!-- /.homepage-header -->
+    
+   <header class="main-header row-fluid">
+    	<nav>
+    		<div class="home-link span1">
+    			<a href="#"><img src="images/epfl-logo.png" alt="Enoch Pratt Free Library" /></a>
+    		</div>
+    		<ul class="navigation span6">
+    			<div class="row">
+	    			<li class="span4"><a href="#">My Library</a></li>
+	    			<li class="span4"><a href="#">Books &amp; Media</a></li>
+	    			<li class="span4"><a href="#">The Librarian</a></li>
+    			</div>
+    		</ul>
+    		
+    		<div class="sign-in-button span5">
+    			<a href="#" class="button right">Sign In</a>
+    		</div>
+    	</nav>
+    </header>
+    
     <div class="search-header">
-    	<div class="logo span1">
-    		<img src="images/epfl-logo.png" alt="Enoch Pratt Free Library">
-    	</div>
 	    <div class="container">
 	    	<div class="row-fluid">
 	    		<div class="span12">
 		    		<h1>Enoch Pratt Free Library</h1>
 		    		<input type="text" name="search-bar" id="homepagesearchbar" placeholder="Search the Catalog" />
-		    		<input type="submit" name="submit-search" id="homepagesubmitsearch" value="Search" />
+		    		<a href="#" class="button submit">Submit</a>
 	    		</div><!-- /.span12 -->
 	    	</div><!-- /.row-fluid -->
 	    </div><!-- /.container -->
-    </div> <!-- /.homepage-header -->
-    
-    <div class="homepage-navigation-module">
-    	<div class="container">
-    		<div class="row-fluid">
-    			<ul class="homepage-nav">
-    				<li class="span4"><a href="#">My Library</a></li>
-    				<li class="span4"><a href="#">Books &amp; Media</a></li>
-    				<li class="span4"><a href="#">The Librarian</a></li>
-    			</ul> <!-- /.homepage-nav -->
-    		</div> <!-- /.row-fluid -->
-    	</div>	<!-- /.container -->
-    </div> <!-- /.homepage-navigation-module -->
+    </div>
     
     <div class="module featured-report">
     	<div class="container">
@@ -64,8 +73,8 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat voluptatibus culpa saepe quibusdam consequatur mollitia vitae repellendus magnam dicta inventore. Corporis velit quisquam quaerat maiores magni error et esse totam.</p>
 					<p>Sunt nesciunt laborum veniam consequuntur ipsa nulla a nemo minus accusamus quisquam voluptates sequi numquam doloribus magni distinctio reiciendis praesentium assumenda recusandae. Fugit dolorem numquam perspiciatis tempora corrupti deleniti laudantium.</p>
 					<p>In facilis quibusdam aut minus voluptate temporibus officiis impedit possimus ab dolore saepe error unde libero corporis pariatur suscipit explicabo sequi repellat! Ex fuga culpa animi cum quisquam veritatis commodi!</p>
-					<p>Ipsa porro quis velit atque esse consequatur harum nesciunt sint fugiat ab tempora molestias repellat cum quia similique doloremque a corporis cupiditate amet sed alias deleniti nostrum sequi excepturi dolore!</p>
-					<p>Sed eos aliquid facere voluptas inventore enim. Laudantium facilis quia quas est fugit harum iste veniam explicabo quam porro natus repudiandae iure vero reprehenderit aut? Quisquam tenetur delectus laudantium animi.</p>
+					
+					<a href="#">Continue Reading &rarr;</a>
 				</div>
 			</div> <!-- /.row -->
 		</div> <!-- /.container -->
@@ -87,7 +96,7 @@
     					</header>
     					<section class="excerpt">
     						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur omnis illo aspernatur quae totam mollitia ipsam voluptates quo. Sapiente officiis nobis molestias repudiandae cumque tempore delectus aperiam reprehenderit dolorum architecto!</p>
-    						<p>Ipsam iure perferendis qui perspiciatis asperiores laboriosam culpa laborum tempora fugiat quod aliquam recusandae cumque illo odit modi! Est sapiente consequatur numquam minus vero quos alias commodi sequi dignissimos consectetur.</p>
+    						
     						
     						<a class="continue">Read more &rarr;</a>
     					</section>
@@ -98,7 +107,7 @@
     				<div class="module-label">
     					<h2>Upcoming Events</h2>
     				</div>
-    				<ul>
+    				<ul class="list">
     					<li><span class="event-date">May 7 </span>Writers Workshop <a href="#" class="continue">More Info</a></li>
     					<li><span class="event-date">May 7 </span>Writers Workshop <a href="#" class="continue">More Info</a></li>
     					<li><span class="event-date">May 7 </span>Writers Workshop <a href="#" class="continue">More Info</a></li>
@@ -115,7 +124,7 @@
     
     <footer class="module">
     	<div class="container">
-    		<div class="row">
+    		<div class="row contact-info">
     			<div class="address span4">
 					<p>Enoch Pratt Free Library</p>
 					<p>400 Cathedral Street</p>
@@ -133,8 +142,8 @@
 					<p><a href="maito:hello@prattlib.com">hello@prattlib.com</a></p>
 				</div>
     		</div><!-- /.row -->
-    		<div class="row">
-    			<div class="span1">
+    		<div class="row footer-logo">
+    			<div class="span2 offset5 footer-logo">
     				<img src="images/epfl-logo.png" alt="Enoch Pratt Free Library" />
     			</div>
     		</div>
