@@ -8,6 +8,7 @@ $sky-blue: #C0E1F9;
 $tan: #E2D7BA;
 $sea-green: #97AA8F;
 $green: #7FD159;
+$middle-gray: #969696;
 
 @mixin vendorize($property, $value) {
 	-webkit-#{$property}: $value;
